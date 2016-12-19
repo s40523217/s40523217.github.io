@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 計算機程式課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-12T12:00:00+08:00</updated><entry><title>W13</title><link href="./w13.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-12:./w13.html</id><summary type="html">&lt;p&gt;Python3 能做什麼? Python3 指的是 Python 程式語言第 3 版, 是一種解譯式泛用型程式語言, 能夠在程式碼編寫好了之後, 馬上利用 Python3 解譯器執行, 程式碼是在執行當下才自動轉為機器碼, 因此使用者可以最簡便的方式使用 Python3.&lt;/p&gt;
-&lt;p&gt;在大一的計算機課程中, 我們利用 Python 編寫的 Leo Editor 作為近端的資料管理與整合程式開發中心, 並利用 Python 編寫的 Pelican 工具, 將使用者建立的 Markdown 格式檔案, 轉為組成 Blog 系統所需要的 html 格式檔案. 使用者所編寫的 Markdown 檔案中可以嵌入格式與 Python3 相容的 Brython 程式碼, 也可以直接在瀏覽器中執行這些 Brython 程式, 進行網際環境中的資料處理與 2D/3D 靜態與動態繪圖.&lt;/p&gt;
-&lt;p&gt;因此, 在這門課程的範疇中, Python3 能夠做什麼? 簡單說, 我們在此所學習的 Python3 計算機程式語法, 可以在單機操作系統中, 以及瀏覽器中利用電腦進行資料處理、數值運算與繪圖.&lt;/p&gt;
-&lt;p&gt;Python3 的資料處理 Leo Editor 利用大綱模式管理資料, 就是 Python3 程式應用的範例, 至於 Pelican 套件將 Markdown 檔案轉為 Blog 專用的 html 檔案, 也是一系列利用 Python3 指令與語法進行資料處理的過程.&lt;/p&gt;
-&lt;p&gt;課程進行初始, 本課程利用 Python3 程式進行學員資料的讀取、分組排序, 轉而利用 Brython 直接在網頁上處理學員資料, 也是 Python3 程式進行資料處理的應用之一.&lt;/p&gt;
-&lt;p&gt;Python3 的數值運算 在工程應用中, 最簡單的數值運算就是各種工程尺寸與單位的換算, 在本課程中, 使用者可以利用 Python3 程式語法建立單機與網頁上執行的物理量單位換算程式.&lt;/p&gt;
-&lt;p&gt;Python3 的繪圖 本課程中的 Python3 繪圖應用以在瀏覽器中執行為主, 使用者學會基本的 Brython 程式語法以及 html5 Canvas 繪圖指令後, 就可以直接將 Canvas 繪圖程式寫在 Markdown 檔案中, 然後再利用 Pelican 將檔案轉為 html&lt;/p&gt;
-&lt;p&gt;Python 程式執行 由於本課程主要在 Windows 10 環境中, 以可攜的 Miniconda Python 3.5 系統為主, 使用者啟動後 ,可以利用可攜系統對應的命令列, 輸入 python 後帶出解譯器環境, 就可以直接下指令執行 Python3 程式語法.&lt;/p&gt;
-&lt;p&gt;此外, 若使用者將 Python3 程式存成 ex1.py, 也可以直接在可攜系統對應的命令列中, 透過 python ex1.py 執行 ex1.py 程式.&lt;/p&gt;
-&lt;p&gt;當然, 假如 ex1.py 已經利用 Leo Editor 的 @edit 節點指令導入, 也可以在 Leo Editor 環境中, 透過 Ctrl+b 按鍵執行, 而且假如要在 Leo Editor 的 Log 視窗中列印, 可以使用 g.es() 函式, 其中的 g 代表 Leo Editor 的 global 物件, 而 es() 函式則代表 echo string.&lt;/p&gt;
-&lt;p&gt;本課程 Brython 程式的執行則牽涉 3 個步驟, 也就是導入 brython.js, 啟動 brython, 最後才能 html5 的檔案中, 利用 script 標註執行 Brython 程式.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>W13 Brython 繪圖範例</title><link href="./w13-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-05:./w13-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall 計算機程式課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-12T12:00:00+08:00</updated><entry><title>W14 練習</title><link href="./w14-lian-xi.html" rel="alternate"></link><published>2016-12-12T12:00:00+08:00</published><updated>2016-12-12T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-12:./w14-lian-xi.html</id><summary type="html">&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;            &lt;span class="nt"&gt;&amp;lt;p&amp;gt;&lt;/span&gt;以下為第十四週開始的城市練習,要利用 &lt;span class="nt"&gt;&amp;lt;a&lt;/span&gt; &lt;span class="na"&gt;href=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://mde.tw/2016fallcp/course/Python3Programs.txt&amp;quot;&lt;/span&gt;&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;http://mde.tw/2016fallcp/course/Python3Programs.txt&lt;span class="nt"&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; 要整理Brython 的用法.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;div id ="ex1"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+container = doc['ex1']
+
+container&lt;="W14練習"
+&lt;/script&gt;
+
+&lt;div id ="ex2"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+container = doc['ex2']
+mystring = input("要印出什麼字串?")
+mynum = input("要印幾次?")
+
+for i in range(int(mynum)):
+    #container&lt;="W14練習-2"+html.BR()
+    container&lt;=mystring+html.BR()
+&lt;/script&gt;</summary><category term="使用導引"></category></entry><entry><title>W13 Brython 繪圖範例</title><link href="./w13-brython-hui-tu-fan-li.html" rel="alternate"></link><published>2016-12-05T12:00:00+08:00</published><updated>2016-12-05T12:00:00+08:00</updated><author><name>40523217</name></author><id>tag:,2016-12-05:./w13-brython-hui-tu-fan-li.html</id><summary type="html">&lt;p&gt;Brython 繪圖&lt;/p&gt;
 &lt;p&gt;繪圖流程, 導入程式庫, 啟動, 然後引用各種模組開始繪圖&lt;/p&gt;
 
 

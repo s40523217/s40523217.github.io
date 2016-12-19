@@ -282,10 +282,30 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../w13.html">W13</a></h2>
-                <div class="summary"><p>Python3 能做什麼? Python3 指的是 Python 程式語言第 3 版, 是一種解譯式泛用型程式語言, 能夠在程式碼編寫好了之後, 馬上利用 Python3 解譯器執行, 程式碼是在執行當下才自動轉為機器碼, 因此使用者可以最簡便的方式使用 Python3.</p>
-<p>在大一的計算機課程中, 我們利用 Python 編寫的 Leo Editor 作為近端的資料管理與整合程式開發中心, 並利用 Python 編寫的 Pelican 工具, 將使用者建立的 Markdown 格式檔案, 轉為組成 Blog 系統所需要的 html 格式檔案. 使用者所編寫的 Markdown 檔案中可以嵌入格式與 Python3 相容的 Brython 程式碼, 也可以直接在瀏覽器中執行這些 Brython 程式, 進行網際環境中的資料處理與 2D/3D 靜態與動態繪圖 ...</p>
-                    <a class="btn btn-default btn-xs" href="../w13.html">more ...</a>
+                <h2><a href="../w14-lian-xi.html">W14 練習</a></h2>
+                <div class="summary"><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>            <span class="nt">&lt;p&gt;</span>以下為第十四週開始的城市練習,要利用 <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://mde.tw/2016fallcp/course/Python3Programs.txt&quot;</span><span class="nt">&gt;</span>http://mde.tw/2016fallcp/course/Python3Programs.txt<span class="nt">&lt;/a&gt;</span> 要整理Brython 的用法.
+</pre></div>
+</td></tr></table>
+
+<p></p>
+<!-- 導入 Brython 標準程式庫 --></p>
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<div id ="ex1"></div>
+
+<script type="text/python3">
+from browser import document as doc ...</script></!--></!-->
+                    <a class="btn btn-default btn-xs" href="../w14-lian-xi.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -368,8 +388,8 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../w13.html">
-                            W13
+                        <a href="../w14-lian-xi.html">
+                            W14 練習
                         </a>
                     </li>
                     <li class="list-group-item">
