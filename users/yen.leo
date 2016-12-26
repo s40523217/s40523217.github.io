@@ -172,6 +172,7 @@
 <v t="leo.20161121151343.1"><vh>@edit 20161121.md</vh></v>
 <v t="leo.20161205160500.1"><vh>@edit 20161205.md</vh></v>
 <v t="leo.20161219150406.1"><vh>@edit 20161212.md</vh></v>
+<v t="leo.20161226134938.1"><vh>@edit 20161226.md</vh></v>
 </v>
 </v>
 </v>
@@ -324,10 +325,10 @@ print("hello")
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [s40523217](http://s40523217.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[blog](blog/index.html)
+[s40523217](blog/index.html)
 
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
